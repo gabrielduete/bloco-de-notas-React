@@ -1,0 +1,11 @@
+.container{
+    max-width: 50%;
+    margin: 5% auto;
+    overflow: auto;
+    min-height: 70%;
+    border: 2px solid #007bff;
+    border-style: inset;
+    padding: 30px;
+    border-radius: 10px;
+    color: rgb(241, 241, 241);
+}

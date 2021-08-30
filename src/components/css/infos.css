@@ -1,0 +1,13 @@
+.tarefa-detalhes{
+    background-color: rgb(44, 43, 43);
+    border-radius: 5px;
+    margin-top: 2%;
+    padding: 0 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.infos-container button{
+    width: 30%;
+    height: 40px;
+}

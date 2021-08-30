@@ -1,0 +1,28 @@
+.containerTarefas{
+    background-color: #2c2b2b;
+    margin: 2%; 
+    padding: 3%;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    font-size: 1em;
+}
+
+.titulo-Container{
+    cursor: pointer;
+}
+
+.remover-Tarefa, .infos-Tarefa{
+    background: none;
+    color: #007bff;
+    cursor: pointer;
+    border: none;
+    font-size: 1.1em;
+    margin: 2%;
+}
+
+.botões-container{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
