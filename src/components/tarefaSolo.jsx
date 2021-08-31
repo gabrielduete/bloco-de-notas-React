@@ -34,5 +34,4 @@ const Tarefa = ({ tarefa, handleTarefaClick, handleRemoverTarefa }) => {
         </div>
     )
 }
- 
 export default Tarefa;

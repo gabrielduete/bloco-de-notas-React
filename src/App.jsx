@@ -24,7 +24,6 @@ const App = () =>{
 
     setTarefas(novaTarefa)
   }
-  // Função pra adicionar tarefa
 
   // Função pra remover a tarefa ao clicar no botão
   const handleRemoverTarefa = (tarefaID) => {
@@ -32,8 +31,6 @@ const App = () =>{
 
     setTarefas(novaTarefaR)
   }
-  // Função pra remover a tarefa ao clicar no botão
-
 
   // Função pra ao clicar na tarefa ficar como concluída
   const handleTarefaClick = (tarefaID) => {
