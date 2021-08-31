@@ -8,14 +8,13 @@ const Tarefa = ({ tarefa, handleTarefaClick, handleRemoverTarefa }) => {
     const history = useHistory()
 
     const handleTarefasDetalhes = () => {
-        history.push(`/${tarefa.titulo}`)
+        history.push(`/${tarefa.titulo}/${tarefa.descricao}`)
     }
 
     return ( 
         <div 
         className = 'containerTarefas' 
-        style={tarefa.finalizado ? {borderLeft: '6px solid #007bff'} : {} }
-        >
+        style={tarefa.finalizado ? {borderLeft: '6px solid #007bff'} : {} }>
                 <div className="titulo-Container" onClick = {() => handleTarefaClick(tarefa.id)}>
                     {tarefa.titulo}
                 </div>

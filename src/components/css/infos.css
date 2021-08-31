@@ -10,4 +10,10 @@
 .infos-container button{
     width: 30%;
     height: 40px;
+    float: right;
+    margin-top: 6%;
+}
+
+.tarefa-detalhes p{
+    margin: 6% 0;
 }

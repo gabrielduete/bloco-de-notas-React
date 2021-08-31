@@ -14,12 +14,12 @@ const App = () =>{
   ])
 
   // Função pra adicionar tarefa
-  const handleAddTarefa = (tarefaTitulo, desc) => {
+  const handleAddTarefa = (tarefaTitulo, tarefaDesc) => {
     const novaTarefa = [...tarefas, {
       titulo: tarefaTitulo,
       id: uuidv4(),
       finalizado: false,
-      descricao: desc,
+      descricao: tarefaDesc,
     }]
 
     setTarefas(novaTarefa)
@@ -56,7 +56,7 @@ const App = () =>{
           </>
         )}
         />
-        <Route path = "/:tarefaTitulo" exact component = {Infos}
+        <Route path = "/:tarefaTitulo/:tarefaDesc" exact component = {Infos}
 
         />
       </div>
