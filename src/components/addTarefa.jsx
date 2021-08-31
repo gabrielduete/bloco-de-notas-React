@@ -16,8 +16,8 @@ const Botão = ( {handleAddTarefa } ) =>{
     }
 
     const handleAddTarefaClick = () => {
-        if (inputData === '' || inputData.length === 0){
-            window.alert("Dê um nome a tarefa antes de adiciona-la... ¬¬'")
+        if (inputData === '' || inputData.length === 0 || descData === '' || descData.length === 0){
+            window.alert("Preencha todos os campos antes de adicionar! ¬¬'")
         }else{      
             handleAddTarefa(inputData, descData)
             setDescData("")
